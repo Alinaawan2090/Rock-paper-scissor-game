@@ -1,0 +1,64 @@
+/* styles.css */ 
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h1{
+    background-color: black;
+    color: bisque;
+    height: 5rem;
+    line-height: 5rem;
+}
+.choices{
+  height: 165ox;
+  width: 165px;
+}
+.choices:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+img{
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.choice{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+.scr-bord{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    gap: 4rem
+}
+#num1,#num2{
+    font-size: 5rem;
+    margin-top: 2rem;
+}
+.msg-cont{
+    margin-top: 4rem;
+}
+#msg{
+    background-color: black;
+    color: rgb(240, 239, 191);
+    font-size: 2rem;
+    justify-content: center;
+    line-height: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+
+
+
+
+
